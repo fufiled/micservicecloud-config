@@ -4,10 +4,6 @@
 ---
 spring:
   profiles: dev
-    application:
-      name: micservicecloud-config-dev
 ---
 spring:
   profiles: test
-    application:
-      name: micservicecloud-config-test
