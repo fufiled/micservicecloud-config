@@ -11,8 +11,6 @@ mybatis:
 ---
 spring:
   profiles: test
-    application:
-      name: config-test
 mybatis:
   config-location: classpath:config/mybatiscfg.xml
   type-aliases-package: cn.fuyong.springcloud.entity.test
