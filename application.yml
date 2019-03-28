@@ -4,6 +4,8 @@
 ---
 spring:
   profiles: dev
+  application:
+    name: provider
 mybatis:
   config-location: classpath:config/mybatiscfg.xml
   type-aliases-package: cn.fuyong.springcloud.entity.dev
